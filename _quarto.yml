@@ -1,0 +1,31 @@
+project:
+  type: book
+
+book:
+  title: "Shamati"
+  author: " Rav Yehuda Ashlag"
+  translator: "Charles Kiefer"
+  editor: "Charles Kiefer"
+  date: "20/11/2022"
+  language: "pt-br"
+  chapters:
+    - index.qmd
+    - shamati1.qmd
+    - shamati2.qmd
+    - shamati3.qmd
+    - shamati4.qmd
+    - shamati5.qmd
+    - shamati12.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
